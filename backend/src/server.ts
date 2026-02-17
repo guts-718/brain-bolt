@@ -3,6 +3,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { testPG } from "./db/postgres";
 import { testRedis } from "./redis/client";
+import authRoutes from "./routes/auth.routes";
+import quizRoutes from "./routes/quiz.routes";
+import leaderboardRoutes from "./routes/leaderboard.routes";
 
 
 dotenv.config({ path: "../.env" });
@@ -39,6 +42,10 @@ app.get("/infra-test", async (_, res) => {
     res.status(500).json({ error: "infra failed" });
   }
 });
+
+app.use("/auth", authRoutes);
+app.use("/quiz", quizRoutes);
+app.use("/leaderboard", leaderboardRoutes);
 
 
 const PORT = process.env.PORT || 4000;
