@@ -1,0 +1,282 @@
+[
+{
+"text": "What is 5 + 7?",
+"options": ["10", "11", "12", "13"],
+"correct_option": "12",
+"difficulty": 1,
+"topic": "math"
+},
+{
+"text": "What is the square root of 81?",
+"options": ["7", "8", "9", "10"],
+"correct_option": "9",
+"difficulty": 3,
+"topic": "math"
+},
+{
+"text": "Solve: 3x = 18",
+"options": ["3", "6", "9", "12"],
+"correct_option": "6",
+"difficulty": 5,
+"topic": "math"
+},
+{
+"text": "Derivative of x^2?",
+"options": ["x", "2x", "x^2", "2"],
+"correct_option": "2x",
+"difficulty": 7,
+"topic": "math"
+},
+{
+"text": "Integral of 1/x dx?",
+"options": ["ln x", "x", "1/x", "x^2"],
+"correct_option": "ln x",
+"difficulty": 9,
+"topic": "math"
+},
+{
+"text": "What is 15 - 4?",
+"options": ["9", "10", "11", "12"],
+"correct_option": "11",
+"difficulty": 2,
+"topic": "math"
+},
+{
+"text": "What is 7 factorial?",
+"options": ["720", "120", "5040", "840"],
+"correct_option": "5040",
+"difficulty": 6,
+"topic": "math"
+},
+{
+"text": "Limit of sin x / x as x→0?",
+"options": ["0", "1", "∞", "-1"],
+"correct_option": "1",
+"difficulty": 8,
+"topic": "math"
+},
+{
+"text": "Which comes next: 2,4,8,16?",
+"options": ["18", "24", "32", "20"],
+"correct_option": "32",
+"difficulty": 1,
+"topic": "logic"
+},
+{
+"text": "Odd one out: cat, dog, car, cow",
+"options": ["cat", "dog", "car", "cow"],
+"correct_option": "car",
+"difficulty": 3,
+"topic": "logic"
+},
+{
+"text": "If all A are B and all B are C, A are C?",
+"options": ["Yes", "No", "Maybe", "Unknown"],
+"correct_option": "Yes",
+"difficulty": 5,
+"topic": "logic"
+},
+{
+"text": "Truth value of: T AND F?",
+"options": ["T", "F", "Both", "None"],
+"correct_option": "F",
+"difficulty": 2,
+"topic": "logic"
+},
+{
+"text": "How many truths in XOR of T,T?",
+"options": ["0", "1", "2", "Undefined"],
+"correct_option": "0",
+"difficulty": 6,
+"topic": "logic"
+},
+{
+"text": "Minimal gates for NOT?",
+"options": ["0", "1", "2", "3"],
+"correct_option": "1",
+"difficulty": 4,
+"topic": "logic"
+},
+{
+"text": "Pigeonhole: 5 pigeons, 4 holes → at least?",
+"options": ["1", "2", "3", "4"],
+"correct_option": "2",
+"difficulty": 7,
+"topic": "logic"
+},
+{
+"text": "If statement is false, its negation is?",
+"options": ["False", "True", "Maybe", "Same"],
+"correct_option": "True",
+"difficulty": 8,
+"topic": "logic"
+},
+{
+"text": "Which symbol starts a comment in C++?",
+"options": ["//", "##", "--", "**"],
+"correct_option": "//",
+"difficulty": 1,
+"topic": "programming"
+},
+{
+"text": "Which type stores integers?",
+"options": ["float", "int", "char", "bool"],
+"correct_option": "int",
+"difficulty": 2,
+"topic": "programming"
+},
+{
+"text": "Time complexity of binary search?",
+"options": ["n", "log n", "n^2", "1"],
+"correct_option": "log n",
+"difficulty": 4,
+"topic": "programming"
+},
+{
+"text": "Which is immutable in Python?",
+"options": ["list", "dict", "set", "tuple"],
+"correct_option": "tuple",
+"difficulty": 5,
+"topic": "programming"
+},
+{
+"text": "Stack follows which order?",
+"options": ["FIFO", "LIFO", "Random", "Sorted"],
+"correct_option": "LIFO",
+"difficulty": 3,
+"topic": "programming"
+},
+{
+"text": "Best case quicksort complexity?",
+"options": ["n", "n log n", "n^2", "log n"],
+"correct_option": "n log n",
+"difficulty": 7,
+"topic": "programming"
+},
+{
+"text": "Which structure uses hashing?",
+"options": ["Array", "Heap", "HashMap", "Stack"],
+"correct_option": "HashMap",
+"difficulty": 6,
+"topic": "programming"
+},
+{
+"text": "Which is tail recursion?",
+"options": ["Call first", "Call last", "No call", "Loop"],
+"correct_option": "Call last",
+"difficulty": 8,
+"topic": "programming"
+},
+{
+"text": "Capital of France?",
+"options": ["Rome", "Paris", "Berlin", "Madrid"],
+"correct_option": "Paris",
+"difficulty": 1,
+"topic": "general knowledge"
+},
+{
+"text": "Largest planet?",
+"options": ["Earth", "Mars", "Jupiter", "Venus"],
+"correct_option": "Jupiter",
+"difficulty": 2,
+"topic": "general knowledge"
+},
+{
+"text": "Who wrote Hamlet?",
+"options": ["Shaw", "Dickens", "Shakespeare", "Austen"],
+"correct_option": "Shakespeare",
+"difficulty": 3,
+"topic": "general knowledge"
+},
+{
+"text": "Currency of Japan?",
+"options": ["Won", "Dollar", "Yen", "Peso"],
+"correct_option": "Yen",
+"difficulty": 4,
+"topic": "general knowledge"
+},
+{
+"text": "First man on Moon?",
+"options": ["Aldrin", "Armstrong", "Gagarin", "Collins"],
+"correct_option": "Armstrong",
+"difficulty": 5,
+"topic": "general knowledge"
+},
+{
+"text": "UN founded in?",
+"options": ["1945", "1939", "1918", "1960"],
+"correct_option": "1945",
+"difficulty": 6,
+"topic": "general knowledge"
+},
+{
+"text": "Smallest country?",
+"options": ["Monaco", "Nauru", "Vatican", "Malta"],
+"correct_option": "Vatican",
+"difficulty": 7,
+"topic": "general knowledge"
+},
+{
+"text": "Author of 'Origin of Species'?",
+"options": ["Newton", "Einstein", "Darwin", "Tesla"],
+"correct_option": "Darwin",
+"difficulty": 8,
+"topic": "general knowledge"
+},
+{
+"text": "Water chemical formula?",
+"options": ["CO2", "H2O", "O2", "NaCl"],
+"correct_option": "H2O",
+"difficulty": 1,
+"topic": "science"
+},
+{
+"text": "Gas plants absorb?",
+"options": ["O2", "CO2", "N2", "H2"],
+"correct_option": "CO2",
+"difficulty": 2,
+"topic": "science"
+},
+{
+"text": "Human blood pH ~?",
+"options": ["5.4", "6.2", "7.4", "8.9"],
+"correct_option": "7.4",
+"difficulty": 6,
+"topic": "science"
+},
+{
+"text": "Unit of force?",
+"options": ["Joule", "Pascal", "Newton", "Watt"],
+"correct_option": "Newton",
+"difficulty": 3,
+"topic": "science"
+},
+{
+"text": "Speed of light approx?",
+"options": ["3e8 m/s", "3e6 m/s", "3e5 m/s", "3e7 m/s"],
+"correct_option": "3e8 m/s",
+"difficulty": 5,
+"topic": "science"
+},
+{
+"text": "DNA shape?",
+"options": ["Circle", "Line", "Double helix", "Cube"],
+"correct_option": "Double helix",
+"difficulty": 4,
+"topic": "science"
+},
+{
+"text": "Heaviest stable element listed?",
+"options": ["Uranium", "Lead", "Gold", "Iron"],
+"correct_option": "Uranium",
+"difficulty": 7,
+"topic": "science"
+},
+{
+"text": "Quantum of light?",
+"options": ["Electron", "Photon", "Proton", "Neutron"],
+"correct_option": "Photon",
+"difficulty": 8,
+"topic": "science"
+}
+]
