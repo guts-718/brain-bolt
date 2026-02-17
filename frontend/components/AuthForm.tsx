@@ -63,7 +63,7 @@ export default function AuthForm({mode}:{mode:"login"|"register"}){
         className="w-full p-2 border rounded"
       />
 
-      <button className="w-full bg-black text-white py-2 rounded">
+      <button className="w-full bg-black text-white py-2 rounded hover:cursor-pointer">
   {mode === "login" ? "Login" : "Create account"}
 </button>
 
@@ -79,7 +79,7 @@ export default function AuthForm({mode}:{mode:"login"|"register"}){
     onClick={() =>
       router.push(mode === "login" ? "/register" : "/login")
     }
-    className="ml-1 underline hover:opacity-80"
+    className="ml-1 underline hover:opacity-80 hover:cursor-pointer"
   >
     {mode === "login" ? "Register" : "Login"}
   </button>

@@ -5,7 +5,7 @@ export default function OptionButton({text,onClick}:{text:string,onClick:()=>voi
       className="
 w-full p-3 rounded-xl border transition font-medium
 bg-white text-black hover:bg-gray-200
-dark:bg-white/10 dark:text-white dark:hover:bg-white dark:hover:text-black
+dark:bg-white/10 dark:text-white dark:hover:bg-white dark:hover:text-black hover:cursor-pointer
 "
     >
       {text}

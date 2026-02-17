@@ -69,14 +69,28 @@ export default function Home(){
     
     <main className="max-w-xl mx-auto p-6 space-y-6">
       {/* <ThemeToggle/> */}
-      <button
-      onClick={()=>{
-        logout();
-        router.push("/login");
-      }}
-      >
-      Logout
-      </button>
+     <button
+  onClick={()=>{
+    logout();
+    router.push("/register");
+  }}
+  className="
+  absolute top-6 right-6
+  px-4 py-2
+  rounded-lg
+  text-sm font-medium
+  transition
+
+  bg-white text-black hover:bg-gray-200
+  dark:bg-white/10 dark:text-white dark:hover:bg-white dark:hover:text-black
+  border border-white/20
+  backdrop-blur 
+  hover:cursor-pointer
+  "
+>
+  Logout
+</button>
+
 
       <ScorePanel state={state}/>
       <motion.div
