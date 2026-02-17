@@ -44,7 +44,22 @@ export async function getState(token:string){
   return r.json();
 }
 
+
+export function setToken(t:string){
+  localStorage.setItem("token",t);
+}
+
+export function getToken(){
+  return localStorage.getItem("token");
+}
+
+export function logout(){
+  localStorage.removeItem("token");
+}
+
 export async function leaderboardScore(){
-  const r = await fetch(API+"/leaderboard/score");
+  const r = await fetch("http://localhost:4000/leaderboard/score",{
+    cache:"no-store"
+  });
   return r.json();
 }

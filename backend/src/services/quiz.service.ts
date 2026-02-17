@@ -145,8 +145,12 @@ export async function submitAnswer(userId: string, body: any) {
 
     // SCORE 
 
-    const delta = calculateScore(question.difficulty, streak, accuracy);
+    const raw = calculateScore(question.difficulty, streak, accuracy);
+
+    const delta = correct ? Math.max(0, raw) : 0;
+
     const newScore = state.score + delta;
+
 
     // INSERT ANSWER
 
